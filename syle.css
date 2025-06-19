@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+#child1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#child1 h4 {
+    font-size: 16px;
+    border: 1.5px solid ;
+    padding: 4px 10px;
+    border-radius: 50px;
+}
+#child1 i {
+    font-size: 16px;
+    border: 1.5px solid ;
+    padding: 4px 10px;
+    border-radius: 50px;
+}
+
+#nav h2{
+    font-weight:500;
+    font-size: 22px;
+}
+#nav button{
+    padding: 7px 12px;
+    border-radius: 30px;
+    font-size: 13px;
+    border: 1.8px solid black;
+    font-weight: 600;
+    
+}
+#btn{
+    background-color: orangered;
+    color: white;
+}
+#main>h1{
+    font-size: 120px;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    object-position:center center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+#btm-left{
+    position: absolute;
+    bottom: 3%;
+    left: 30px;
+    font-size:16px;
+    font-weight: 400;
+}
+#so1{
+    position: absolute;
+    bottom: 2%;
+    right: 4%;
+    font-size: 30px;
+
+
+}
+#so2{
+    position: absolute;
+    bottom: 2%;
+    right: 1%;
+    font-size: 30px;
+
+
+}
+
+#arrow i {
+    position:absolute;
+    left: 50%;
+    bottom: -15px;
+    font-size: 30px;
+    border: 2px solid ;
+    padding: 4px 10px;
+    border-radius: 50px;
+}
